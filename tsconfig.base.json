@@ -3,6 +3,7 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "alwaysStrict": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "moduleResolution": "node"
   }
 }
