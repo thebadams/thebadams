@@ -1,0 +1,26 @@
+{
+  "name": "thebadams",
+  "version": "1.0.0",
+  "description": "Monorepo of theBadams work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"engines": {
+		"pnpm": "^7.0.0"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebadams/thebadams.git"
+  },
+  "keywords": [
+    "monorepo",
+    "typescript"
+  ],
+  "author": "thebadams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebadams/thebadams/issues"
+  },
+  "homepage": "https://github.com/thebadams/thebadams#readme"
+}
