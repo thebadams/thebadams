@@ -1,5 +1,9 @@
 {
 	"name": "@thebadams/fastify-utilities",
+	"scripts": {
+		"test": "mocha"
+	},
+	"type": "module",
 	"devDependencies": {
 		"@types/chai": "^4.3.1",
 		"@types/mocha": "^9.1.1",
