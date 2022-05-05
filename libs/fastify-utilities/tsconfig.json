@@ -1,8 +1,9 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "module": "es6",
+    "module": "es2020",
     "target": "ES2017"
   },
+  "esm": true,
   "include": ["**/*.ts"]
 }
