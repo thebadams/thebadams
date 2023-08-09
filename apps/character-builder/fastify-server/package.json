@@ -4,14 +4,17 @@
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
-		"build": "tsup src/index.ts --format esm",
-		"start": "node dist/index.js"
+		"build": "rimraf dist && tsup src/index.ts --format esm",
+		"start": "node dist/index.js",
+		"dev": "rimraf dist && tsup src/index.ts --format esm --watch & nodemon dist/index.js --watch"
 	},
 	"authors": [
 		"thebadams",
 		"Brian P. Adams"
 	],
 	"devDependencies": {
+		"nodemon": "^3.0.1",
+		"rimraf": "^5.0.1",
 		"ts-node": "^10.9.1",
 		"ts-node-dev": "^2.0.0",
 		"tsup": "^7.2.0",
