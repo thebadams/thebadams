@@ -1,0 +1,15 @@
+{
+	"name": "@character-builder/prisma",
+	"version": "0.0.0",
+	"main": "./.prisma/client/index.js",
+	"types": "./.prisma/client/index.d.ts",
+	"dependencies": {
+		"@prisma/client": "5.1.1",
+		"prisma": "^5.1.1"
+	},
+	"scripts": {
+		"prisma:init": "pnpm dlx prisma init",
+		"hello": "echo \"Hello World!\"",
+		"build": "pnpm dlx prisma generate"
+	}
+}

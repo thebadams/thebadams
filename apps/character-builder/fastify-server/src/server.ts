@@ -1,7 +1,7 @@
 import { fastifyTRPCPlugin } from '@trpc/server/adapters/fastify';
 import Fastify from 'fastify';
-import { appRouter } from './router';
-import { createContext } from './context';
+import { appRouter } from './router.js';
+import { createContext } from './context.js';
 
 const server = Fastify({ logger: true });
 const PORT = 8000;

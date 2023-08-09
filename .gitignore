@@ -105,3 +105,6 @@ dist
 
 # Turbo Files
 .turbo
+
+# Prisma Output
+.prisma
