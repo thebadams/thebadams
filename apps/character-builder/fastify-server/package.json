@@ -2,9 +2,22 @@
 	"name": "@character-builder/fastify-server",
 	"license": "MIT",
 	"version": "1.0.0",
-	"scripts": {},
+	"type": "module",
+	"scripts": {
+		"build": "tsup src/index.ts --format esm",
+		"start": "node dist/index.js"
+	},
 	"authors": [
 		"thebadams",
 		"Brian P. Adams"
-	]
+	],
+	"devDependencies": {
+		"ts-node": "^10.9.1",
+		"ts-node-dev": "^2.0.0",
+		"tsup": "^7.2.0",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"fastify": "^4.21.0"
+	}
 }

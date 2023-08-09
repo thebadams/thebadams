@@ -2,7 +2,11 @@
 	"name": "thebadams",
 	"version": "1.0.0",
 	"description": "TheBadams mono repo",
-	"scripts": {},
+	"type": "module",
+	"scripts": {
+		"start": "turbo run start",
+		"build": "turbo run build"
+	},
 	"keywords": [],
 	"authors": [
 		"thebadams",
@@ -13,7 +17,8 @@
 		"@types/node": "^20.4.9",
 		"eslint": "^8.46.0",
 		"prettier": "^3.0.1",
-		"typescript": "^5.1.6"
+		"typescript": "^5.1.6",
+		"base-eslint": "workspace:*"
 	},
 	"dependencies": {
 		"turbo": "^1.10.12"

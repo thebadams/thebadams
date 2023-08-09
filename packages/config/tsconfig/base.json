@@ -5,9 +5,9 @@
 		"composite": false,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"noUnusedLocals": true,
+		"noUnusedLocals": false,
 		"isolatedModules": true,
-		"noUnusedParameters": true,
+		"noUnusedParameters": false,
 		"strict": true
 	}
 }
