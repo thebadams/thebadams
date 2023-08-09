@@ -30,9 +30,15 @@ importers:
 
   apps/character-builder/fastify-server:
     dependencies:
+      '@trpc/server':
+        specifier: ^10.37.1
+        version: 10.37.1
       fastify:
         specifier: ^4.21.0
         version: 4.21.0
+      zod:
+        specifier: ^3.21.4
+        version: 3.21.4
     devDependencies:
       nodemon:
         specifier: ^3.0.1
@@ -427,6 +433,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@trpc/server@10.37.1:
+    resolution: {integrity: sha512-r3VeA319/braYMBIzj+XLgLKQ9lJSVglvPvP9HUv4kr5w6Y5grQMxMcExhTiZWltE9bnSJHKtBBzHafOo7KC8A==}
+    dev: false
 
   /@tsconfig/node10@1.0.9:
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
@@ -2871,3 +2881,7 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+
+  /zod@3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
