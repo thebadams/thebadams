@@ -10,7 +10,7 @@
 	"scripts": {
 		"prisma:init": "pnpm dlx prisma init",
 		"hello": "echo \"Hello World!\"",
-		"build": "pnpm dlx prisma generate",
+		"build": "pnpm dlx prisma generate --schema=../../../schema.character-builder.prisma",
 		"watch": "pnpm dlx prisma generate --watch",
 		"prisma:seed": "pnpm dlx prisma db seed",
 		"prisma:migrate": "pnpm dlx prisma migrate dev",

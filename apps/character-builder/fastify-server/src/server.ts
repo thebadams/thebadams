@@ -4,7 +4,14 @@ import { appRouter } from './router.js';
 import { createContext } from './context.js';
 
 const server = Fastify({ logger: true });
-const PORT = 8000;
+const HOST = 'RENDER' in process.env ? '0.0.0.0' : 'localhost';
+let PORT: number;
+
+if (process.env.PORT) {
+	PORT = parseInt(process.env.PORT);
+} else {
+	PORT = 8000;
+}
 
 server.register(fastifyTRPCPlugin, {
 	prefix: '/trpc',
@@ -13,7 +20,7 @@ server.register(fastifyTRPCPlugin, {
 
 export async function startServer() {
 	try {
-		await server.listen({ port: PORT });
+		await server.listen({ port: PORT, host: HOST });
 		server.log.info(`Server Started on port ${PORT}`);
 	} catch (error) {
 		console.error('ERROR:', error);
