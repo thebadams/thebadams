@@ -1,0 +1,10 @@
+{
+	"name": "@character-builder/fastify-server",
+	"license": "MIT",
+	"version": "1.0.0",
+	"scripts": {},
+	"authors": [
+		"thebadams",
+		"Brian P. Adams"
+	]
+}

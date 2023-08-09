@@ -1,0 +1,20 @@
+{
+	"name": "base-eslint",
+	"version": "0.0.0",
+	"description": "Base Eslint Config",
+	"main": "index.js",
+	"private": true,
+	"dependencies": {
+		"eslint-config-semistandard": "^17.0.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0",
+		"eslint-plugin-promise": "^6.0.0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"publishConfig": {
+		"access": "public"
+	}
+}
