@@ -4,10 +4,12 @@
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
+		"clean": "rimraf dist",
 		"hello": "echo \"Hello World!\"",
 		"build": "rimraf dist && tsup src/index.ts --format esm",
 		"start": "node dist/index.js",
-		"dev": "rimraf dist && tsup src/index.ts --format esm --watch & nodemon dist/index.js --watch"
+		"dev": "turbo run watch --filter=@character-builder/* & nodemon dist/index.js --watch",
+		"watch": "tsup src/index.ts --format esm --watch"
 	},
 	"authors": [
 		"thebadams",

@@ -10,6 +10,13 @@
 	"scripts": {
 		"prisma:init": "pnpm dlx prisma init",
 		"hello": "echo \"Hello World!\"",
-		"build": "pnpm dlx prisma generate"
+		"build": "pnpm dlx prisma generate",
+		"watch": "pnpm dlx prisma generate --watch",
+		"prisma:seed": "pnpm dlx prisma db seed",
+		"prisma:migrate": "pnpm dlx prisma migrate dev",
+		"prisma:push": "pnpm dlx prisma db push"
+	},
+	"prisma": {
+		"seed": "ts-node prisma/seed.ts"
 	}
 }

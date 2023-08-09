@@ -11,8 +11,21 @@ export const appRouter = t.router({
 	}),
 	allClasses: publicProcedure.query(async ({ ctx }) => {
 		try {
-			const classes = await ctx.prisma.class.findMany({});
+			const classes = await ctx.prisma.class.findMany({
+				include: { armors: true },
+			});
 			return classes;
+		} catch (error) {
+			console.error(error);
+			return [];
+		}
+	}),
+	classNames: publicProcedure.query(async ({ ctx }) => {
+		try {
+			const classNames = await ctx.prisma.class.findMany({
+				select: { name: true },
+			});
+			return classNames;
 		} catch (error) {
 			console.error(error);
 			return [];

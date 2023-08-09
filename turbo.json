@@ -11,6 +11,12 @@
 			"dependsOn": ["^build"],
 			"cache": false,
 			"persistent": true
-		}
+		},
+		"watch": {
+			"dependsOn": [],
+			"persistent": true,
+			"cache": false
+		},
+		"clean": {}
 	}
 }

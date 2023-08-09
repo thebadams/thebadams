@@ -1,0 +1,178 @@
+[
+	{
+		"name": "Barbarian",
+		"baseHP": 7,
+		"bonuses": ["STR", "CON"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 12, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 13, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": 0 }
+		]
+	},
+	{
+		"name": "Bard",
+		"baseHP": 7,
+		"bonuses": ["DEX", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 12, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 13, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -1 }
+		]
+	},
+	{
+		"name": "Chaos Mage",
+		"baseHP": 6,
+		"bonuses": ["INT", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 11, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Cleric",
+		"baseHP": 7,
+		"bonuses": ["WIS", "STR"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 12, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 14, "atkPenalty": 0 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": 0 }
+		]
+	},
+	{
+		"name": "Commander",
+		"baseHP": 7,
+		"bonuses": ["STR", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 12, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 14, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": 0 }
+		]
+	},
+	{
+		"name": "Demonologist",
+		"baseHP": 6,
+		"bonuses": ["CON", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 11, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 12, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Druid",
+		"baseHP": 6,
+		"bonuses": ["STR", "DEX", "WIS"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 14, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Fighter",
+		"baseHP": 8,
+		"bonuses": ["STR", "CON"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 13, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 15, "atkPenalty": 0 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": 0 }
+		]
+	},
+	{
+		"name": "Monk",
+		"baseHP": 7,
+		"bonuses": ["STR", "DEX", "WIS"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 11, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 11, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 12, "atkPenalty": -4 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Necromancer",
+		"baseHP": 6,
+		"bonuses": ["INT", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 11, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Occultist",
+		"baseHP": 6,
+		"bonuses": ["INT", "WIS"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 11, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 13, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Paladin",
+		"baseHP": 8,
+		"bonuses": ["STR", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 12, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 16, "atkPenalty": 0 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": 0 }
+		]
+	},
+	{
+		"name": "Ranger",
+		"baseHP": 7,
+		"bonuses": ["DEX", "STR"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 14, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 15, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Rogue",
+		"baseHP": 6,
+		"bonuses": ["DEX", "CHA"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 11, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 12, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 13, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Sorcerer",
+		"baseHP": 6,
+		"bonuses": ["CHA", "CON"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 11, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	},
+	{
+		"name": "Wizard",
+		"baseHP": 6,
+		"bonuses": ["INT", "WIS"],
+		"armors": [
+			{ "type": "NONE", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "LIGHT", "baseAC": 10, "atkPenalty": 0 },
+			{ "type": "HEAVY", "baseAC": 11, "atkPenalty": -2 },
+			{ "type": "SHIELD", "baseAC": 1, "atkPenalty": -2 }
+		]
+	}
+]
